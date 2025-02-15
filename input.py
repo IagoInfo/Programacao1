@@ -8,7 +8,7 @@ def main(page: ft.Page):
     idade = ft.TextField(value='0')
     
     #cor do background
-    page.bgcolor = 'red'
+    page.bgcolor = 'grey'
 
     # centralizar o texto na interface
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
