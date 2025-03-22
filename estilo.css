@@ -1,0 +1,74 @@
+body{
+    background: #0066ff;
+}
+    
+    
+    .usuario{
+        /* \ Definir largura da div */
+        width : 400px;
+        /* Definir margem automática */
+        margin: auto;
+        /* Definir espaçamento entre os objetos */
+        padding: 10%;
+    }
+
+    .form{
+        /* Posiciona o form relativo ao body */
+        position:relative;
+        /* Posiciona o form em um plano acima do body */
+        z-index: 1;
+        /* Cor do form */
+        background: #ffffff;
+        max-width: 320px;
+        /* Espaçamento entre os elementos */
+        padding : 20px 20px 20px 20px;
+        /* Centralizar o texto no imput */
+        text-align: center;
+        /* sombra do form */
+        box-shadow: 10px 10px 10px 1px rgba(255, 0, 0, 0.4);
+        border-radius: 10px;
+}
+    
+.form input{
+    /* Fonte da letra */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Input sem borda */
+    border:0;
+    /* Cor do input */
+    background: #b4ccf8;
+    /* Comprimento do input */
+    width: 80%;
+    /* Margem do input */
+    margin: 15px 5px 15px;
+    /* Espaçamento entre os inputs */
+    padding: 15px;
+    /* Tamanho da fonte para os inputs */
+    font-size : 16px;
+    /* Remover a borda do input com foco */
+    outline: 0;
+}
+
+
+.form button{
+    /* Fonte do texto do botão salvar */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    /* Salvar em UPPERCASE */
+    text-transform: uppercase;
+    /* Remover a borda do botão quando receber foco */
+    outline : 0;
+    /* Cor de fundo do botão */
+    background: #0066ff;
+    /* Remover a borda do botão */
+    border : 0;
+    /* Largura do botão */
+    width:90%;
+    padding:  15px;
+    font-size: 14px;
+    /* Altera o formato do cursor */
+    cursor: pointer;
+    color:#ffffff;
+}
+/* Efeito hover no botão SALVAR */
+.form button:hover{
+    background: #0033cc;
+}
